@@ -108,7 +108,7 @@ public class Main {
                 .filter(Main::isPrime)
                 .forEach(s -> System.out.print(s + " "));
     }
-    private static void printLineBreaks(boolean printLn) {
+    public static void printLineBreaks(boolean printLn) {
         if (printLn) {
             System.out.println();
         }
